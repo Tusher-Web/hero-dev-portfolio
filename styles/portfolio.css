@@ -5,6 +5,12 @@
 }
 
 /* Share Style */
+.container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -63,9 +69,6 @@ header{
 }
 
 nav{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,9 +130,6 @@ nav .navbar a{
 }
 
 #about .aboutContainer{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
     text-align: center;
     background: #FFF8F3;
     padding: 131px 156px;
@@ -144,12 +144,6 @@ nav .navbar a{
     font-size: 20px;
     line-height: 30px;
     color: #757575;
-}
-
-.skillsContainer{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
 }
 
 .skillsContainer .skillBox{
@@ -178,9 +172,7 @@ nav .navbar a{
     line-height: 28px;
 }
 #resume .resumeContainer{
-    width: 71%;
-    max-width: 1140px;
-    margin: 113px auto 0;
+    margin-top: 113px;
     display: flex;
     gap: 24px;
 }
@@ -215,15 +207,12 @@ nav .navbar a{
 }
 
 #footer{
-    margin-top: 130px;
     background: #FFF8F3;
-    padding: 130px 0;
 }
 
 #footer .footerContainer{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
+    margin-top: 113px;
+    padding: 130px 0;
     display: flex;
     gap: 116px;
 }
